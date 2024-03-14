@@ -1,6 +1,6 @@
 Документация: Управление набором именованных сущностей
-![Image alt](https://github.com/pashaBy94/entity_name/raw/main/images/image1.png)
-![Image alt](https://github.com/pashaBy94/entity_name/raw/main/images/image2.png)
+<img src="https://github.com/pashaBy94/entity_name/raw/main/images/image1.png" alt="social network" width="500">
+<img src="https://github.com/pashaBy94/entity_name/raw/main/images/image2.png" alt="social network" width="500">
 Описание:
 Это документация по созданию веб-приложения для управления набором именованных сущностей. 
 Приложение разработано с использованием React для создания пользовательского интерфейса, 
