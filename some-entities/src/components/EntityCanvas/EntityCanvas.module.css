@@ -1,0 +1,10 @@
+.canvas {
+    background-color: azure;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+.paint {
+    border-radius: 20px;
+    background-color: rgb(185, 255, 232);
+}

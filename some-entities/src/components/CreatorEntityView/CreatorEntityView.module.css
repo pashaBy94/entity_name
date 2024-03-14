@@ -1,0 +1,25 @@
+.creater {
+    background-color: azure;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+.creater__form {
+}
+.creater__input {
+    display: flex;
+    gap: 10px;
+}
+.creater__input > label input {
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.creater__button {
+    padding: 10px 0;
+    text-align: right;
+}
+.creater__button > button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgb(218, 234, 252);
+}
