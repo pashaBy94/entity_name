@@ -17,7 +17,14 @@ const ItemEntityView = ({ entity }) => {
             <p>
                 x: {entity.coordinate[0]}, y: {entity.coordinate[1]}{' '}
             </p>
-            <button onClick={() => handleDelete(entity.id)} className={style.entityes__btn}>
+            <button
+                onClick={ev => {
+                    ev.preventDefault();
+                    ev.stopPropagation();
+                    handleDelete(entity.id);
+                }}
+                className={style.entityes__btn}
+            >
                 x
             </button>
         </li>
