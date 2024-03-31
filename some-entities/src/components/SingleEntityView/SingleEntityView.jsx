@@ -5,7 +5,7 @@ import style from './SingleEntityView.module.css';
 
 const SingleEntityView = () => {
     const [name, setName] = useState('');
-    const [coordinate, setCoordinate] = useState('');
+    const [coordinate, setCoordinate] = useState([]);
     const [labels, setLabels] = useState('');
     const currentEntity = useSelector(state => state.currentEntity);
     const dispatch = useDispatch();
@@ -49,7 +49,9 @@ const SingleEntityView = () => {
                             <input
                                 type="text"
                                 value={coordinate}
-                                onChange={e => setCoordinate(e.target.value)}
+                                onChange={e =>
+                                    setCoordinate(e.target.value.split(',').map(el => +el))
+                                }
                             />
                         </label>
                         <label>

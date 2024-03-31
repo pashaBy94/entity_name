@@ -10,7 +10,6 @@ const ItemEntityView = ({ entity }) => {
     const selectEntities = entityId => {
         dispatch(loadOnlyEntitieThunk(entityId));
     };
-    console.log(entity);
     return (
         <li className={style.entityes__item} onClick={() => selectEntities(entity.id)}>
             <p className={style.entity__title}>{entity.name}</p>

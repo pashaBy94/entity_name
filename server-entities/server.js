@@ -16,7 +16,6 @@ let entities = [
 ];
 
 app.get('/entities', (req, res) => {
-  console.log(222);
   res.json(entities);
 });
 app.get('/entities/:id', (req, res) => {
@@ -41,7 +40,6 @@ app.put('/entities/:id', (req, res) => {
     }
     return entity;
   });
-
   res.json(updatedEntity);
 });
 
